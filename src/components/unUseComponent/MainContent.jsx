@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Navbar from "./Navbar";
-import Earnings from "./Earnings";
-import Info from "./Info";
-import JoinSlack from "./JoinSlack";
-import ProjectRecommendation from "./ProjectRecommendation";
-import Projects from "./Projects";
-import Invoices from "./Invoices";
+import Navbar from "../components/Navbar";
+import Earnings from "../components/Earnings";
+import Info from "../components/Info";
+import JoinSlack from "../components/JoinSlack";
+import ProjectRecommendation from "../components/ProjectRecommendation";
+import Projects from "../components/Projects";
+import Invoices from "../components/Invoices";
 
 function MainContent() {
   return (
@@ -148,3 +148,16 @@ const ColumnTwo2 = styled.div`
 `;
 
 export default MainContent;
+
+
+
+
+
+
+
+            // <Router>
+            //   <Routes>
+            //     {/* <Route path="/" element={<Home />} /> */}
+            //     <Route path="/addProducts" element={<AddProducts />} />
+            //   </Routes>
+            // </Router>

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Badge from "./Badge";
+import Badge from "../Badge";
 import AvatarImage from "../assets/chrisHemsWorth.jpeg";
-import { cardShadow, hoverEffect } from "../utils";
+import { cardShadow, hoverEffect } from "../../utils";
 
 function ProjectRecommendation() {
   return (
